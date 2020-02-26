@@ -5,7 +5,10 @@ numpy==1.15.4
 pandas
 scikit-learn
 Click==7.0
-Flask==1.1.1
+Flask==1.0.2
+Flask-RESTful==0.3.6
+Flask-SQLAlchemy==2.3.2
+numpy==1.15.4
 gunicorn==19.9.0
 itsdangerous==1.1.0
 Jinja2==2.10.1
