@@ -1,0 +1,15 @@
+tensorflow==1.13.1
+opencv-python
+keras==2.2.4
+numpy==1.15.4
+pandas
+Scikit-learn
+Click==7.0
+Flask==1.1.1
+gunicorn==19.9.0
+itsdangerous==1.1.0
+Jinja2==2.10.1
+MarkupSafe==1.1.1
+Werkzeug==0.15.6
+
+
