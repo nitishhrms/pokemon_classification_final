@@ -1,6 +1,7 @@
 from flask import Flask,render_template,request
 import label_it
 import os
+import PIL
 app=Flask(__name__)
 
 ##m=joblib.load('model.pkl')
