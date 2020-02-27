@@ -1,7 +1,7 @@
 from tensorflow.keras.preprocessing import image
 from sklearn.externals import joblib
 import tensorflow as tf
-import tensorflow.keras.backend as k
+from tensorflow.keras.backend as k
 import numpy as np
 config =tf.compat.v1.ConfigProto(
     device_count={'GPU': 1},
