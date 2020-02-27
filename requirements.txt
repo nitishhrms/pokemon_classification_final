@@ -21,5 +21,5 @@ tensorflow==0.12.1
 Theano==0.8.2
 Werkzeug==0.11.15
 gunicorn==19.6.0
-
+keras.engine.sequential
 
