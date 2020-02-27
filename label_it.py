@@ -1,7 +1,7 @@
-from keras.preprocessing import image
+from tensorflow.keras.preprocessing import image
 from sklearn.externals import joblib
 import tensorflow as tf
-import keras.backend as k
+import tensorflow.keras.backend as k
 import numpy as np
 config = tf.ConfigProto(
     device_count={'GPU': 1},
@@ -34,5 +34,3 @@ def ans(path):
             if labels==2:
                 return 'charmander'
             return labels
-
-      
