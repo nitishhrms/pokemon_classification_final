@@ -22,5 +22,5 @@ def classification():
     return render_template('index.html',my_target=target1,my_image=image)
 
 if __name__=='__main__':
-    ##port = int(os.environ.get('PORT', 5000))
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(debug=true,port=port)
