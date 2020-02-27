@@ -3,7 +3,7 @@ from sklearn.externals import joblib
 import tensorflow as tf
 import tensorflow.keras.backend as k
 import numpy as np
-config = tf.ConfigProto(
+config = tf.compat.v1.ConfigProto(
     device_count={'GPU': 1},
     intra_op_parallelism_threads=1,
     allow_soft_placement=True
