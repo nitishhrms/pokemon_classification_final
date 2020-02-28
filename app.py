@@ -9,13 +9,7 @@ app=Flask(__name__)
 @app.route('/')
 def Hello():
     return render_template('index.html')
-@app.errorhandler(404)
-def page_not_found(e):
-    return render_template("404.html")
-@app.errorhandler(500)
-def internal_error(error):
 
-    return "500 error"
 
 
 
